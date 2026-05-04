@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fake News Detector</string>
+    <string name="app_version">1.0.0</string>
+    <string name="developer">Youness Bourek</string>
+    <string name="organization">M1 Microélectronique</string>
+</resources>

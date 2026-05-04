@@ -1,0 +1,70 @@
+{
+  "name": "fake-news-detector-mobile",
+  "version": "1.0.0",
+  "description": "AI-powered Fake News Detection Mobile App - Detect fake news articles and headlines using advanced machine learning",
+  "main": "index.js",
+  "author": {
+    "name": "Youness Bourek",
+    "email": "youness.bourek@m1micro.com",
+    "url": "https://github.com/youness-bourek"
+  },
+  "organization": {
+    "name": "M1 Microélectronique",
+    "url": "https://m1microelectronique.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/youness-bourek/fake-news-detector.git"
+  },
+  "bugs": {
+    "url": "https://github.com/youness-bourek/fake-news-detector/issues"
+  },
+  "homepage": "https://github.com/youness-bourek/fake-news-detector#readme",
+  "keywords": [
+    "fake-news",
+    "detection",
+    "ai",
+    "machine-learning",
+    "nlp",
+    "react-native",
+    "android",
+    "mobile",
+    "news-analysis",
+    "misinformation"
+  ],
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint . --ext .ts,.tsx",
+    "format": "prettier --write \"**/*.{ts,tsx,json,md}\""
+  },
+  "dependencies": {
+    "expo": "^50.0.0",
+    "react": "^18.2.0",
+    "react-native": "^0.73.0",
+    "react-native-web": "^0.19.0",
+    "expo-constants": "^15.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.0",
+    "@types/react": "^18.2.0",
+    "@types/react-native": "^0.73.0",
+    "typescript": "^5.3.0",
+    "eas-cli": "^10.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "contributors": [
+    {
+      "name": "Youness Bourek",
+      "email": "youness.bourek@m1micro.com"
+    }
+  ]
+}
